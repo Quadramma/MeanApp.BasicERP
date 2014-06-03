@@ -9,27 +9,27 @@ module.exports = {
     facebook: {
         clientID: '785833591440723',
         clientSecret: '57f7bbd5a382de427b972556bf342c3c',
-        callbackURL: 'http://localhost:3000/auth/facebook/callback'
+        callbackURL: 'http://basic-erp-5346.herokuapp.com/auth/facebook/callback' 
     },
     twitter: {
         clientID: 'CONSUMER_KEY',
         clientSecret: 'CONSUMER_SECRET',
-        callbackURL: 'http://localhost:3000/auth/twitter/callback'
+        callbackURL: 'http://basic-erp-5346.herokuapp.com/auth/twitter/callback'
     },
     github: {
         clientID: 'APP_ID',
         clientSecret: 'APP_SECRET',
-        callbackURL: 'http://localhost:3000/auth/github/callback'
+        callbackURL: 'http://basic-erp-5346.herokuapp.com/auth/github/callback'
     },
     google: {
         clientID: 'APP_ID',
         clientSecret: 'APP_SECRET',
-        callbackURL: 'http://localhost:3000/auth/google/callback'
+        callbackURL: 'http://basic-erp-5346.herokuapp.com/auth/google/callback'
     },
     linkedin: {
         clientID: 'API_KEY',
         clientSecret: 'SECRET_KEY',
-        callbackURL: 'http://localhost:3000/auth/linkedin/callback'
+        callbackURL: 'http://basic-erp-5346.herokuapp.com/auth/linkedin/callback'
     }
 };
 
