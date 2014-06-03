@@ -14,7 +14,12 @@ var mongoose = require('mongoose'),
 
 // Initializing system variables
 var config = require('./server/config/config');
-var db = mongoose.connect(config.db);
+console.log('mongoose.connect -> ' + config.db);
+config.db = 'mongodb://<user>:<password>@kahana.mongohq.com:10022/qjarvis';
+var db = mongoose.connect(config.db,{
+	user:'javi',
+	pass:'gtf'
+});
 
 // Bootstrap Models, Dependencies, Routes and the app as an express app
 var app = require('./server/config/system/bootstrap')(passport, db);
