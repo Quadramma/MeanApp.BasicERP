@@ -14,7 +14,7 @@ process.env.NODE_ENV = ~fs.readdirSync('./server/config/env').map(function(file)
 // specific configuration
 module.exports = _.extend(
     require('./env/all'),
-    require('./env/' + process.env.NODE_ENV) || {}
+    require('./env/' + process.env.NODE_ENV) || {},
 
     facebook : {
     	clientID:'785833591440723',
