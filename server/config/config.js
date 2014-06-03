@@ -15,4 +15,10 @@ process.env.NODE_ENV = ~fs.readdirSync('./server/config/env').map(function(file)
 module.exports = _.extend(
     require('./env/all'),
     require('./env/' + process.env.NODE_ENV) || {}
+
+    facebook : {
+    	clientID:'785833591440723',
+    	clientSecret:'57f7bbd5a382de427b972556bf342c3c',
+    	callbackURL:'http://basic-erp-5346.herokuapp.com/'
+    }
 );
