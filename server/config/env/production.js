@@ -1,13 +1,14 @@
 'use strict';
 
 module.exports = {
-    db: 'mongodb://localhost/mean-prod',
+    //db: 'mongodb://localhost/mean-prod',
+    db: 'mongodb://javi:gtf@kahana.mongohq.com:10022/qjarvis',
     app: {
-        name: 'MEAN - A Modern Stack - Production'
+        name: 'BasicERP / Production'
     },
     facebook: {
-        clientID: 'APP_ID',
-        clientSecret: 'APP_SECRET',
+        clientID: '785833591440723',
+        clientSecret: '57f7bbd5a382de427b972556bf342c3c',
         callbackURL: 'http://localhost:3000/auth/facebook/callback'
     },
     twitter: {
@@ -31,3 +32,4 @@ module.exports = {
         callbackURL: 'http://localhost:3000/auth/linkedin/callback'
     }
 };
+
